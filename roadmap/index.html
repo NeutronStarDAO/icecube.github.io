@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roadmap</title>
+    <link rel="icon" href="../favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="bouncing-blobs-container">
+        <div class="bouncing-blobs-glass"></div>
+        <div class="bouncing-blobs">
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--white"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--pink"></div>
+        </div>
+    </div>
+    
+    <svg display="none">
+        <symbol id="arrow">
+            <polyline points="7 10,12 15,17 10" fill="none" stroke="currentcolor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" />
+        </symbol>
+    </svg>
+    <h1>The Future We Are Building</h1>
+    <div id="timeline" class="timeline">
+        <div class="btn-group">
+            <button class="btn" type="button" data-action="expand">Take a closer look</button>
+            <button class="btn" type="button" data-action="collapse">Get an overview</button>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item1" aria-labelledby="item1-name"
+                    aria-expanded="false" aria-controls="item1-ctrld" aria-haspopup="true" data-item="1">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item1-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="1970-01-01">January, 2024</time><br>
+                    <strong class="timeline__title">Technical Architecture Design</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item1-ctrld" role="region" aria-labelledby="item1" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">We meticulously design the technical architecture of ICE CUBE 🧊 based on our vision.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item2" aria-labelledby="item2-name"
+                    aria-expanded="false" aria-controls="item2-ctrld" aria-haspopup="true" data-item="2">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item2-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="1973-10-17">July, 2024</time><br>
+                    <strong class="timeline__title">Release Testnet</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item2-ctrld" role="region" aria-labelledby="item2" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">Release the testnet for community engagement.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item3" aria-labelledby="item3-name"
+                    aria-expanded="false" aria-controls="item3-ctrld" aria-haspopup="true" data-item="3">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item3-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2001-09-09">October, 2024</time><br>
+                    <strong class="timeline__title">Launch APP</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item3-ctrld" role="region" aria-labelledby="item3" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">Officially launch the APP. This will be an exhilarating moment.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item4" aria-labelledby="item4-name"
+                    aria-expanded="false" aria-controls="item4-ctrld" aria-haspopup="true" data-item="4">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item4-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2009-02-13">February, 2025</time><br>
+                    <strong class="timeline__title">Network Expansion Capabilities</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item4-ctrld" role="region" aria-labelledby="item4" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">Enhance the network’s scalability and performance to handle large-scale traffic and extensive message broadcasting.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item5" aria-labelledby="item5-name"
+                    aria-expanded="false" aria-controls="item5-ctrld" aria-haspopup="true" data-item="5">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item5-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2033-05-18">May, 2025</time><br>
+                    <strong class="timeline__title">Integrated DAO Governance</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item5-ctrld" role="region" aria-labelledby="item5" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">Transition the governance model to a DAO, handing control of the APP to the people. This signifies that ICE CUBE 🧊 is officially back in the hands of the people.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item6" aria-labelledby="item6-name"
+                    aria-expanded="false" aria-controls="item6-ctrld" aria-haspopup="true" data-item="6">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item6-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2038-01-19">Future</time><br>
+                    <strong class="timeline__title">Hail to the People</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item6-ctrld" role="region" aria-labelledby="item6" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">
+                        Eternal Glory to the People. 
+                        <br>
+                        Under the influence of the people, we will expand the APP to the masses, helping individuals establish a network of personal sovereignty.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
