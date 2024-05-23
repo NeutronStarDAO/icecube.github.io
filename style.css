@@ -302,9 +302,9 @@ header .title span:nth-child(12) {color: #9606fc;}
 }
 
 .app-link a:hover {
-    color: #fff;
-    border-color: #000;
-    background-color: #000;
+    color: #000;
+    border-color: #BDD5FF;
+    background-color: #BDD5FF;
 }
 
 .card {
@@ -643,13 +643,13 @@ button:hover .button-text {
     }
 
     header .title {
-        font-size: 25px;
-        margin-bottom: 3px;
+        font-size: 35px;
+        margin-bottom: 15px;
     }
     
     header .title p {
-        max-width: 80%;
-        font-size: 14px;
+        max-width: 90%;
+        font-size: 15px;
     }
 
     .app-link a {
@@ -673,20 +673,30 @@ button:hover .button-text {
         font-weight: 600;
     }
 
+    .part1-word {
+        width: 77%;
+        margin: 3rem 0;
+    }
+
     .part1-img {
-        width: 70%;
+        width: 95%;
         margin-left: 7rem;
         padding-right: 7rem;
     }
 
     .part1-word p, .part2-word p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 1.1;
     }
 
+    .part2-word {
+        width: 80%;
+    }
+
     .card-title {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 600;
+        margin: 5rem 0;
     }
 
     .card {
@@ -719,5 +729,5 @@ button:hover .button-text {
         margin-top: 10px;
     }
 
-    
+
 }
