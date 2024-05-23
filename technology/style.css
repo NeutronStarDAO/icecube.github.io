@@ -86,6 +86,19 @@ body::after {
 	height: 100%;
 }
 
+.logo {
+    width: 7%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin: 2rem 0 0 3rem;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 100%;
+}
+
 .dark body {
 	background: hsl(0 0% 6%);
 	color: hsl(0 0% 96%);
@@ -212,6 +225,15 @@ mark::after {
 	font-size: 0.875rem;
 	scale: var(--highlighted);
 	transition: scale 0.2s;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
 }
 
 @-webkit-keyframes highlight {

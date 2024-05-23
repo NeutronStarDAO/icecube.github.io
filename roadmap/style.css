@@ -75,6 +75,19 @@
 	height: 100%;
 }
 
+.logo {
+    width: 7%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin: 2rem 0 0 3rem;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 100%;
+}
+
 a {
 	color: var(--primary);
 	transition: color var(--trans-dur);
@@ -179,7 +192,7 @@ h1 {
 
 .timeline__item {
 	position: relative;
-	padding-bottom: 1.5em;
+	padding-bottom: 1.2em;
 }
 
 .timeline__item:not(:last-child):before {
@@ -247,6 +260,16 @@ h1 {
 
 .timeline__arrow[aria-expanded="true"] .timeline__arrow-icon {
 	transform: rotate(0);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+	font-size: 17px;
+	padding-bottom: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
