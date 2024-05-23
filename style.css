@@ -466,6 +466,7 @@ button:hover .button-text {
 .card-button-social {
     width: 3.5rem;
     height: 3.5rem;
+    border-radius: 15px;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -687,7 +688,7 @@ footer {
         display: flex;
         position: absolute;
         z-index: 2;
-        top: 0;
+        top: -10px;
         left: -25px;
     }
 
@@ -756,6 +757,7 @@ footer {
     .part3-img {
         width: 55%;
         margin-bottom: 0;
+        margin-top: 5rem;
     }
 
     .card-title {
