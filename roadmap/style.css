@@ -235,7 +235,6 @@ h1 {
 	line-height: 1.333;
 }
 
-/* Expanded state */
 .timeline__item-body--expanded {
 	height: auto;
 }

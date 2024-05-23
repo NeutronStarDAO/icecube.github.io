@@ -269,3 +269,9 @@ mark::after {
 		clip-path: polygon(50vmax -100vmax, -100vmax 200vmax, 200vmax 200vmax);
 	}
 }
+
+@media screen and (max-width: 500px) {
+	mark::after {
+		translate: 1% 0;
+	}
+}
