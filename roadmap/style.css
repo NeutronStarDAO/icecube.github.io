@@ -300,5 +300,7 @@ footer {
 @media screen and (max-width: 500px) {
     .logo {
         position: unset;
+		width: 17%;
+		margin: 2rem 0 0 1.5rem;
     }
 }
