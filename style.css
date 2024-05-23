@@ -647,6 +647,10 @@ footer {
     button:hover .button-text {
         color: #000000;
     }
+
+    .part1-word p, .part2-word p {
+        color: #ffffff;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -676,7 +680,7 @@ footer {
         position: absolute;
         z-index: 2;
         top: 0;
-        left: -20px;
+        left: -25px;
     }
 
     header {

@@ -120,10 +120,6 @@ section {
 	fill: white;
 }
 
-:where(h1, h2) {
-	font-weight: 120;
-}
-
 main {
 	padding: 0 1rem;
 	width: 57ch;
@@ -131,30 +127,6 @@ main {
 	margin: 0 auto;
 	font-size: 1.25rem;
 	padding: 0 0 50vmin 0;
-}
-
-button {
-	position: fixed;
-	top: 1rem;
-	right: 1rem;
-	width: 48px;
-	aspect-ratio: 1;
-	padding: 0;
-	border-radius: 12px;
-	border: 0;
-	background: transparent;
-	display: grid;
-	place-items: center;
-	cursor: pointer;
-}
-
-[aria-pressed=true] svg path:last-of-type,
-[aria-pressed=false] svg path:first-of-type {
-	display: none;
-}
-
-button svg {
-	width: 65%;
 }
 
 mark {
@@ -285,5 +257,14 @@ footer {
 @media screen and (max-width: 500px) {
 	mark::after {
 		translate: 1% 0;
+	}
+
+    .logo {
+        position: unset;
+		width: 17%;
+		margin: 2rem 0 0 0;
+    }
+	footer {
+		margin: 1rem;
 	}
 }
