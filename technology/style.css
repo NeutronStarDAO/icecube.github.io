@@ -6,7 +6,6 @@
 
 body {
 	min-height: 100vh;
-	font-weight: 80;
 	padding: 0 4rem 0 1rem;
 	background: #fff;
 	color: #000;
@@ -108,17 +107,8 @@ section {
 	fill: white;
 }
 
-* {
-	box-sizing: border-box;
-}
-
 :where(h1, h2) {
 	font-weight: 120;
-}
-
-code {
-	max-width: 100%;
-	overflow: auto;
 }
 
 main {
