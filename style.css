@@ -273,7 +273,7 @@ header .title p {
     font-weight: normal;
 }
 
-header .title span:first-child {color: #0633f8;}
+header .title span:nth-child(1) {color: #0633f8;}
 header .title span:nth-child(2) {color: #0e31f9;}
 header .title span:nth-child(3) {color: #312df8;}
 header .title span:nth-child(4) {color: #3d26f8;}
@@ -282,8 +282,9 @@ header .title span:nth-child(6) {color: #611ef9;}
 header .title span:nth-child(7) {color: #751af9;}
 header .title span:nth-child(8) {color: #8217f9;}
 header .title span:nth-child(9) {color: #8b15f9;}
-header .title span:nth-child(10) {color: #9e11f9;}
+header .title span:nth-child(10) {color: #9e11f8;}
 header .title span:nth-child(11) {color: #9a12f9;}
+header .title span:nth-child(12) {color: #9606fc;}
 
 .app-link a {
     display: flex;
@@ -453,8 +454,8 @@ button:hover .button-text {
 }
 
 .card-button-social {
-    width: 3.7rem;
-    height: 3.7rem;
+    width: 3.5rem;
+    height: 3.5rem;
     margin: 10px;
     display: flex;
     align-items: center;

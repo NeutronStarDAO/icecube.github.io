@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Technology</title>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="bouncing-blobs-container">
+        <div class="bouncing-blobs-glass"></div>
+        <div class="bouncing-blobs">
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--white"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--pink"></div>
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <h1>Harnessing Decentralization's Avant-Garde</h1>
+            <p>
+                ICE CUBE distinguishes itself by granting users control over their own canister to store all information, ensuring no external interference. Users exclusively interact with their own canister, enabling a seamless and rapid experience, unaffected even during high user volumes. ICE CUBE also features an open database, allowing anyone to freely query any data, breaking away from the data silos seen in Web2 applications.
+            </p>
+            <p>
+                On another note, ICE CUBE incorporates a unique incentive mechanism for creators through the Bonding Curve. ICE CUBE tokenizes posts and publicly issues them, providing returns to purchasers. 
+            </p>
+            <p>
+                <mark data-author="Financial Rewards"><span>Essentially, every post can be "tokenized," with tokens issued in a manner akin to fungible tokens, where the price of each share gradually increases with the quantity purchased.</span></mark>
+            </p>
+            <p>
+                By offering contributors an expected return on investment, ICE CUBE encourages spontaneous early donations to valuable public goods. The entire process of asset
+                issuance and returns is governed by smart contracts, ensuring transparency and openness.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="introduction-to-technical-architecture">
+                Introduction to technical architecture
+            </h2>
+            <p>
+                ICE CUBE embraces the Actor model, continuously exploring technologies for decentralized application (DApp) built entirely upon Actor model principles.
+            </p>
+            <p>
+                <mark data-author="Actor Model" style="--hue: 777"><span>The foundational unit of ICE CUBE is the canister, a concept we believe aligns synergistically with the Internet Computer. 
+                DApps constructed upon this architectural paradigm may emerge as the prevailing norm, unlocking myriad possibilities for innovation derived from this powerful concept.</span></mark>
+            </p>
+            <h2 id="detailed-description-of-technical-architecture">
+                Detailed description of technical architecture
+            </h2>
+            <p>
+                ICE CUBE incorporates modular design, an open database, user cloud terminals, and a creator incentive mechanism.
+            </p>
+            <ul>
+                <li>
+                    Modular Design: Categorizes canisters based on functionality, each with its designated role.
+                </li>
+                <li>
+                    Public Database: An open database allowing anyone to directly publish and access content.
+                </li>
+                <li>
+                    User Cloud Terminals: Each user possesses their small independent server (canister), offering on-chain private services.
+                </li>
+                <li>
+                    Creator Incentives: Assigns "tokens" to post, distinguishing outstanding content.
+                </li>
+            </ul>
+            <p>
+                <mark data-author="Smooth Experience" style="--hue: 280"><span>Its architecture is designed based on the actor model provided by IC.
+                Decentralized collaboration among canisters facilitates information flow, with users needing only to query canisters for all relevant information.</span></mark>In essence, users interact solely with their own canister at the frontend, leaving subsequent collaboration tasks to be gradually
+                completed by the canisters.
+            </p>
+            <p>
+                We create a Feed canister for each user to store their personal information flow, serving as their private space. Users can save posts in their own canister (Feed canister), and no one else can delete them besides the user.
+            </p>
+            <p>
+                Interactions between users and the public area are automatically handled by the Feed canister. Users can simply query their Feed canister to obtain the latest information flow from those they follow. Posting, commenting, and liking interactions are also automatically completed by the Feed canister in subsequent operations.
+            </p>
+            <p>
+                <mark data-author="🧊" style="--hue: 175"><span>Overall, ICE CUBE can be divided into four modules: User, Feed, Post, and Fetch.</span></mark>
+            </p>
+            <ul>
+                <li>
+                    User canister: The user zone responsible for recording user information and relationships. It stores user profiles and follower relationships.
+                </li>
+                <li>
+                    Post canister: The public zone that stores all publicly posted content. The Root Post canister can create numerous Bucket canisters to store posts.
+                </li>
+                <li>
+                    Feed canister: The information stream storing a user's personal information flow. The Root Feed canister creates a Feed canister for each user.
+                </li>
+                <li>
+                    Fetch canister: The intermediary station responsible for pushing the latest information flow of a specific user. It records posts, comments, or likes that the user's Feed canister has not fetched.
+                </li>
+            </ul>
+            <p>
+                Users can also incorporate advanced custom features by deploying an independent Feed canister to
+                interact with the public zone. For example, sending posts point-to-point to specific Feed canisters to
+                create private social circles or connecting to AI for automatic posting. Any functionality is
+                achievable, with the community having the flexibility to develop and expand various features, such as
+                adding a point-to-point private messaging feature.
+            </p>
+            <p>
+                <mark data-author="Advantage" style="--hue: 77"><span>The advantage of this approach is that users only need to query their Feed canister to access posts from those they follow. It is convenient, swift, and all backend processes are decentralized collaborations between canisters, completely decoupled.</span></mark> The system continues running even if several canisters go offline.
+            </p>
+
+            <hr style="color: black;"/>
+
+            <p>
+                <a href="https://neutronstardao.github.io/constellation.github.io/9.DevelopingDApp/2.DesigningDApp.html">Check out the Docs for more.</a>
+            </p>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
