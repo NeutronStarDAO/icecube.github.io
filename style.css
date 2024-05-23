@@ -651,6 +651,14 @@ footer {
     .part1-word p, .part2-word p {
         color: #ffffff;
     }
+
+    .part1-word p a {
+        color: #745fff;
+    }
+
+    .card-button-social {
+        background-color: #fff;
+    }
 }
 
 @media screen and (max-width: 1200px) {
