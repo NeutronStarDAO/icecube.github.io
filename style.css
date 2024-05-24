@@ -504,7 +504,7 @@ button:hover .button-text {
     line-height: 1;
 }
 
-.part1-word p, .part2-word p {
+.part1-word p, .part2-word p, .part1-word li {
     font-size: 1.5rem;
     color: #262854;
     line-height: 1.3;
@@ -563,7 +563,7 @@ button:hover .button-text {
 }
 
 .part3 {
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -575,6 +575,14 @@ button:hover .button-text {
 .part3-img {
     width: 15%;
     margin-bottom: 3rem;
+}
+
+.part3-title {
+    text-align: center;
+}
+
+.part3-word {
+    width: 46%;
 }
 
 footer {
@@ -755,7 +763,7 @@ footer {
     }
 
     .part3 {
-        height: 65vh;
+        height: 95vh;
     }
 
     .part3-img {
