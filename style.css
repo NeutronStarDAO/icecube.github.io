@@ -228,7 +228,7 @@ a {
     margin: 2rem 0 0 3rem;
 }
 
-.logo img {
+.logo img, .logo-phone img {
     cursor: pointer;
     width: 100%;
 }
