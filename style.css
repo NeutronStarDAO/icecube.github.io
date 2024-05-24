@@ -753,7 +753,7 @@ footer {
         padding-right: 0rem;
     }
 
-    .part1-word p, .part2-word p {
+    .part1-word p, .part2-word p, .part1-word li {
         font-size: 1rem;
         line-height: 1.1;
     }
@@ -763,7 +763,7 @@ footer {
     }
 
     .part3 {
-        height: 95vh;
+        height: 75vh;
     }
 
     .part3-img {
