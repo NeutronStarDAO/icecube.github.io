@@ -688,8 +688,8 @@ footer {
         display: flex;
         position: absolute;
         z-index: 2;
-        top: 0;
-        left: -15px;
+        top: -10px;
+        left: -25px;
     }
 
     header {
@@ -700,12 +700,12 @@ footer {
     }
 
     header .title {
-        font-size: 35px;
+        font-size: 32px;
         margin-bottom: 15px;
     }
     
     header .title p {
-        max-width: 92%;
+        max-width: 95%;
         font-size: 15px;
     }
 
