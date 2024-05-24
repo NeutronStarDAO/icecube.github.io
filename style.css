@@ -705,13 +705,17 @@ footer {
         margin: 2rem 0 5rem 0;
     }
 
+    .h1-iphone {
+        width: 87%;
+    }
+
     header .title {
         font-size: 32px;
         margin-bottom: 15px;
     }
     
     header .title p {
-        max-width: 95%;
+        max-width: 100%;
         font-size: 15px;
     }
 
