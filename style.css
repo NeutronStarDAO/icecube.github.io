@@ -233,6 +233,10 @@ a {
     width: 100%;
 }
 
+.logo-phone {
+    display: none;
+}
+
 h1 {
     width: 77%;
     font-weight: 200;
@@ -684,19 +688,21 @@ footer {
     }
 
     .logo {
-        width: 15%;
+        display: none;
+    }
+
+    .logo-phone {
         display: flex;
-        position: absolute;
-        z-index: 2;
-        top: -10px;
-        left: -20px;
+        width: 15%;
+        position: unset;
+        margin: 2rem 0 0 2rem;
     }
 
     header {
         width: 100%;
         height: 100%;
         padding: 0rem 0rem;
-        margin: 5rem 0 3rem 0;
+        margin: 2rem 0 5rem 0;
     }
 
     header .title {
