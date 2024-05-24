@@ -310,6 +310,9 @@ header .title span:nth-child(12) {color: #9606fc;}
     border-radius: 50px;
     padding: 0.7rem 2rem;
     transition: 0.5s ease;
+
+    cursor: not-allowed;
+    
 }
 
 .app-link a:hover {
