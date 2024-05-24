@@ -688,8 +688,8 @@ footer {
         display: flex;
         position: absolute;
         z-index: 2;
-        top: -10px;
-        left: -25px;
+        top: 0;
+        left: -15px;
     }
 
     header {
