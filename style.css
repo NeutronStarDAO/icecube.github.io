@@ -547,9 +547,9 @@ button:hover .button-text {
 }
 
 .part1-img {
-    width: 41%;
-    margin-left: 5rem;
-    padding-right: 7rem;
+    width: 37%;
+    margin-left: 10rem;
+    padding-right: 2rem;
 }
 
 .part2-word {
@@ -560,6 +560,11 @@ button:hover .button-text {
     font-size: 2.6rem;
     font-weight: 700;
     line-height: 1;
+}
+
+.part2-img {
+    width: 41%;
+    padding-right: 7rem;
 }
 
 .part3 {
@@ -660,11 +665,11 @@ footer {
         color: #000000;
     }
 
-    .part1-word p, .part2-word p {
+    .part1-word p, .part2-word p, .part3-word ul li {
         color: #ffffff;
     }
 
-    .part1-word p a {
+    .part1-word p a, .part3-word ul li a {
         color: #745fff;
     }
 
@@ -747,7 +752,7 @@ footer {
         margin: 3rem 0;
     }
 
-    .part1-img {
+    .part1-img, .part2-img {
         width: 75%;
         margin-left: 0rem;
         padding-right: 0rem;
@@ -764,6 +769,10 @@ footer {
 
     .part3 {
         height: 75vh;
+    }
+
+    .part3-word {
+        width: 85%;
     }
 
     .part3-img {
