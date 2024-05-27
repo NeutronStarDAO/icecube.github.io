@@ -1,2 +1,3 @@
-# icecube_web
-web site
+# ICE CUBE 🧊 Website
+
+WAGMI!
