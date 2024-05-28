@@ -590,6 +590,49 @@ button:hover .button-text {
     width: 46%;
 }
 
+.future {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.future-card {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.future .future-img1 {
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+.future .future-img2 {
+    margin-bottom: 3rem;
+    width: 21rem;
+}
+
+.future .future-img3 {
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+.future .future-img4 {
+    margin-bottom: 3rem;
+    width: 25rem;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -821,4 +864,35 @@ footer {
         margin-top: 10px;
     }
 
+    .future {
+        height: 117vh;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .future-card {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .future .future-img1 {
+        margin-bottom: 0;
+        width: 13rem;
+    }
+
+    .future .future-img2 {
+        margin-bottom: 1rem;
+        width: 15rem;
+    }
+
+    .future .future-img3 {
+        margin-bottom: 1rem;
+        width: 13rem;
+    }
+
+    .future .future-img4 {
+        margin-bottom: 1rem;
+        width: 18rem;
+    }
 }
