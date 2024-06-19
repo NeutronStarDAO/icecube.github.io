@@ -860,6 +860,10 @@ footer {
         margin-top: 0;
     }
 
+    .card-title {
+        margin: 2rem 0 3rem 0;
+    }
+
     #card-button-container {
         margin-top: 10px;
     }
