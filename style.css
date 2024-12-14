@@ -497,7 +497,7 @@ button:hover .button-text {
 }
 
 .part1-title {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1;
 }
@@ -551,13 +551,14 @@ button:hover .button-text {
 }
 
 .part2-word {
-    width: 32%;
+    width: 39%;
 }
 
 .part2-title {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1;
+    width: 120%;
 }
 
 .part2-img {
